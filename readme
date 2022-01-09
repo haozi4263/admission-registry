@@ -1,0 +1,21 @@
+
+webhook http server gin beego
+curl https://raw.githubusercontent.com/canha/golang-tools-install-script/master/goinstall.sh | bash
+
+cert:
+    1. cfssl gencert -initca ca-csr.json |cfssljson -bare ca
+    2. cfssl gencert -ca=ca.pem -ca-key=ca-key.pem -config=ca-config.json \
+    -hostname=admission-registry.default.svc -profile=server server-csr.json | cfssljson -bare server
+
+
+
+# 创建Secret
+kubectl create secret tls admission-registry-tls \
+        --key=server-key.pem \
+        --cert=server.pem
+# docker
+    docker build -t haozi4263/admission-registry:v0.1 .
+    docker push haozi4263/admission-registry:v0.1
+
+# 注册wehhook
+    kubectl get ValidatingWebhookConfiguration
