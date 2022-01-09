@@ -15,11 +15,11 @@ spec:
     spec:
       containers:
         - name: whitelist
-          image: haozi4263/admission-registry:v0.1
+          image: haozi4263/admission-registry:v0.3
           imagePullPolicy: IfNotPresent
           env:
             - name: WHITELIST_REGISTRIES
-              value: "docker.io,gcr.io"
+              value: "docker.io,gcr.io,haozi4263"
           ports:
             - containerPort: 443
           volumeMounts:

@@ -68,7 +68,7 @@ func (s *WebhookServer) Handler(writer http.ResponseWriter, request *http.Reques
 		//序列化成功，也就是说获取到了请求的AdmissionReview的数据
 		if request.URL.Path == "/mutate" {
 			// TODO
-		} else if request.URL.Path == "validate" {
+		} else if request.URL.Path == "/validate" {
 			admissionResponse = s.validate(&requestedAdmissionReview)
 		}
 	}
@@ -137,7 +137,8 @@ func (s *WebhookServer) validate(ar *admissionV1.AdmissionReview) *admissionV1.A
 		if !whitelisted {
 			allowed = false
 			code = http.StatusForbidden
-			message = fmt.Sprintf("%s image comes from untrusted registry! Only images form %v are allowed.", container.Image, whitelisted)
+			message = fmt.Sprintf("%s image comes from untrusted registry! Only images form %v are allowed.",
+				container.Image, s.WhiteListRegistries)
 			break
 		}
 	}

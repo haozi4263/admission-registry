@@ -28,14 +28,6 @@
       <change afterPath="$PROJECT_DIR$/../../cobra/dbops/test1/test3.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../cobra/dem1/doc.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../cobra/test1.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy/deploy.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy/registry.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy/test/allowed.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deploy/test/denyed.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pkg/webhook.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../etcd-operator/cmd/backup/main.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../etcd-operator/controllers/action.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../etcd-operator/controllers/resource.go" afterDir="false" />
@@ -80,6 +72,12 @@
       <change afterPath="$PROJECT_DIR$/../../github.com/gostudy/方法/01_方法的定义使用.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../github.com/gostudy/方法/02_方法引用传递.go" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../../github.com/k8s/demo1/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/deploy.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/deploy.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/test/allowed.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/test/allowed.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/deploy/test/denyed.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deploy/test/denyed.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pkg/webhook.go" beforeDir="false" afterPath="$PROJECT_DIR$/pkg/webhook.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../github.com/gostudy/json/json.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../github.com/gostudy/json/01_结构体转json.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../github.com/gostudy/listen16/employee/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../github.com/gostudy/listen16-interface/employee/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../github.com/gostudy/listen16/employee/mainbak.go" beforeDir="false" afterPath="$PROJECT_DIR$/../../github.com/gostudy/listen16-interface/employee/mainbak.go" afterDir="false" />
@@ -135,7 +133,7 @@
   </component>
   <component name="GOROOT" url="file:///usr/local/Cellar/go/1.14.3/libexec" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/deploy/deploy.yaml" root0="SKIP_HIGHLIGHTING" />
